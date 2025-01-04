@@ -13,12 +13,6 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
-// Non - Primitive => Reference types => Call by Reference
-
-// Array , Objects , Functions
-
-// JS dynamic Langauage
-
 // Declare Symbol
 
 const id = Symbol('123')
@@ -31,6 +25,12 @@ const anotherId = Symbol('123')
 // console.log(typeof bigNumber);
 
 // n will represent as bigInt datatype
+
+// Non - Primitive => Reference types => Call by Reference
+
+// Array , Objects , Functions
+
+// JS dynamic Langauage
 
 // array
 const heros = ["Shaktiman" , "Naagraj" , "Doga"];
