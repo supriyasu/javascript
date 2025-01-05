@@ -35,7 +35,7 @@ const anotherId = Symbol('123')
 // array
 const heros = ["Shaktiman" , "Naagraj" , "Doga"];
 
-console.log(typeof heros);
+// console.log(typeof heros);
 
 
 let myObj ={
@@ -44,15 +44,42 @@ let myObj ={
 }
 
 const myFunction = function(){
-    console.log("Hello World!");
+    // console.log("Hello World!");
     return "Success"
 }
 myFunction();
 // console.log( typeof bigNumber);
 
-console.log(myFunction());
+// console.log(myFunction());
 
-console.log(typeof myFunction());
+// console.log(typeof myFunction());
+
+
+// ****** Memory *****
+
+// Stack memory(Primitive) , Heap (Non - Primitive)
+
+let myYoutubename = "VS.com"
+
+let anotherName = myYoutubename 
+anotherName = "SV"
+
+// console.log(anotherName);
+// console.log(myYoutubename);
+
+let userOne = {
+    email: "user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "VS@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
 
 
 
