@@ -1,0 +1,4 @@
+18. Object de-structure and JSON API
+
+Object , Array
+const {attribute name} = object name

@@ -55,19 +55,73 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser); // [ [ 'id', '123vs' ], [ 'name', 'Suvika1' ], [ 'isLoggedIn', false ] ]
+// console.log(tinderUser); // [ [ 'id', '123vs' ], [ 'name', 'Suvika1' ], [ 'isLoggedIn', false ] ]
 
 // ***** Return keys of object in the form of Array
-console.log(Object.keys(tinderUser)); // [ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser)); // [ '123vs', 'Suvika1', false ]
+// console.log(Object.keys(tinderUser)); // [ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser)); // [ '123vs', 'Suvika1', false ]
 
 // Return object in form of Array as Key-value pair
-console.log(Object.entries(tinderUser)); // [ [ 'id', '123vs' ], [ 'name', 'Suvika1' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.entries(tinderUser)); // [ [ 'id', '123vs' ], [ 'name', 'Suvika1' ], [ 'isLoggedIn', false ] ]
 
 // hasOwnProperty - to check attribute of object whether it's present or not
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
+// console.log(tinderUser.hasOwnProperty('isLoggedIn')); // true
 
-console.log(tinderUser.hasOwnProperty('isLogged')); // false
+// console.log(tinderUser.hasOwnProperty('isLogged')); // false
+
+// de-structure
+
+const course = {
+    coursename: "JS",
+    price: "999",
+    courseInstructor: "V"
+}
+
+// course.courseInstructor
+
+// const {courseInstructor} = course
+
+const {courseInstructor : instructor} = course
+
+
+// console.log(courseInstructor); // V
+
+// console.log(instructor); // V
+
+// react
+// const navbar = (props.company) => {
+
+    const navbar = ({company}) => {
+}
+
+navbar(company = "VS")
+// console.log(company);
+
+// **********API*******
+// JSON => JavaScript Object Notation
+
+// {
+//     "name" : "suvika",
+//     "coursename" : "JS",
+//     "price" : "free"
+// }
+
+// Object in Array
+
+[
+    {},
+    {},
+    {}
+]
+
+// TOOL JSON formatter , randomuserme
+
+
+
+
+
+
+
 
 
 
